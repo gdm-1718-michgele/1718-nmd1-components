@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+.btn{
+  font-family: 'Special Elite', cursive;
+  border-radius: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.btn:hover{
+
+}
+.btn--primary{
+  background: rgba(84,110,122 ,1);
+  color: rgba(33,33,33 ,1);
+}
+.btn--primary:hover{
+  background: rgba(120,144,156 ,1);
+}
+.btn--secondary{
+  background: rgba(216,67,21 ,1);
+  color: rgba(255,171,145 ,1);
+}
+.btn--secondary:hover{
+  background: rgba(188,170,164 ,1);
+}
+.btn--tertiary{
+  border: 1px solid rgba(26,35,126,1);
+  border-color: rgba(26,35,126,1);
+  color: rgba(26,35,126,1);
+}
+.btn--tertiary:hover{
+  border: 1px solid rgba(48,63,159,1);
+  color: rgba(48,63,159,1);
+}
